@@ -1,0 +1,74 @@
+.contact-details{
+  background-color: black;
+  background: url(..//images/logo3.png);
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-position:center;
+  background-size: cover;
+
+  color:white;
+}
+.US h1{
+  font-size: 4rem;
+  position: relative;
+  top:280px;
+}
+
+
+.contact{
+    display: flex;
+}
+.contact h5{
+
+margin-top: 300px;
+  margin-right: 20px;
+    margin-left: 20px;
+
+
+}
+.contact h5 a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s ease-in;
+  display: flex;
+}
+.contact h5 a:hover{
+  color:yellow;
+
+}  @media(max-width:1024px){
+  .US h1{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    position: relative;
+    top:400px;
+  }
+  .contact-details{
+    height: auto;
+  }
+  .contact h5{
+
+  margin-top: 400px;
+}
+}
+.yel{
+  color: yellow;
+
+}
+
+.sect{
+  margin:100px;
+  text-align: center;
+
+}
+.catch{
+  overflow: hidden;
+
+}
+/* contacts */
+.here{
+text-transform: uppercase;
+
+}
+.hot{
+  font-size: 90px;
+}
